@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #d1 {
+                border: 5px solid black;
+                width: 450px;
+                height: 550px;
+                margin: 50px auto;
+                background: linear-gradient(90deg,aqua,cornsilk);
+            }
+            #d2 {
+                text-align: center;
+                  margin-top: 20px;
+            }
+
+
+        </style>
+        <title>Registration Form page</title>
+    </head>
+
+    <body>
+        <div id="d1">
+            <h2 id="d2">Registration Form</h2>
+
+            <form id="d2">
+                <div>
+                    <label>First name :</label>
+                    <input type="text" id="" value="" placeholder=" enter first name" size="35"/>
+                </div><br/>
+               
+                <div>
+                    <label>Last name :</label>
+                    <input type="text" id="" value="" placeholder=" enter last name" size="35"/>
+
+                </div><br/>
+              
+                <div>
+                    <label>Email id :</label>
+                    <input type="text" id="" value="" placeholder=" enter email" size="35"/>
+                </div><br/>
+               
+                <div>
+                    <label>Phone no. :</label>
+                    <input type="number" id="" value="" placeholder="enter phone no." size="12"/>
+                </div><br/>
+            
+                <div>
+                <label>OTP :</label>
+                <input type="number" id="" value="" placeholder="enter otp" size="6" minlength="6" maxlength="6"/>
+            </div><br/>
+
+                <div>
+                    <label>Select North State :</label>
+                    <input type="text" list="datalist"/>
+                    <datalist id="datalist">
+                        <option>Jammu & Kashmir</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Punjab</option>
+                        <option>Uttrakhand</option>
+                        <option>Haryana</option>
+                        <option>Delhi</option>
+                        <option>Rajsthan</option>
+                        <option>Uttar Pradesh</option>
+                       
+                </div><br/>
+               
+                 
+                <div>
+                    <label>Gender :</label>
+                    <input type="radio" name="gender"/>
+                    <label>male</label>
+                    <input type="radio" name="gender"/>
+                    <label>female</label>
+                </div><br/>
+
+                <div>
+                    
+                    <label>Covishield doses :</label>
+                    <input type="checkbox" name="first dose"/>
+                    <label>first dose</label>
+                    <input type="checkbox" name="Second dose"/>
+                    <label>Second dose</label>
+                    <input type="checkbox" name="Booster dose"/>
+                    <label>Booster dose</label>
+                </div><br/>
+
+                <div>
+                    <label>Address :</label>
+                    <textarea name="t1" rows="4" cols="20" placeholder="Address....."></textarea>
+                </div><br/>
+
+                <div>
+                    <button>Register</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
