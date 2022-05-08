@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        .container {
+            display: flex;
+          }
+        #menu {
+            flex: 1;
+            border-right: 4px solid black;
+            border-radius: 10px;
+            padding: 5px; 
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(aqua,yellow,darkred);
+            }
+        #menu section {
+            background-color: orangered;
+             color: white;
+             padding: 10px;
+             border-radius: 10px;
+             justify-content: center;
+             font-style: italic;
+             font-size: x-large;
+             display: flex;
+             
+         }
+         a {
+             color: white ;
+             text-decoration: none;
+       }
+         #frame {
+             flex: 4;
+             display: flex;
+             
+         }
+         iframe {
+             width: 100%;
+             height: 100vh;
+             border: none;
+             padding: 5px;
+             background-image: url(https://learn.g2.com/hubfs/inferential%20analysis@2x.png#keepProtocol);
+             background-repeat: no-repeat;
+             background-position: center;
+             background-size: cover;
+            
+         }
+        
+    </style>
+    
+    <title>Iframe</title>
+</head>
+<body>
+    <section class="container">
+
+    <section id="menu">
+    <section>
+        <a href="mobile.html" target="rightpanel">Mobiles</a>
+    </section>
+  </br>
+    <section>
+        <a href="tv.html" target="rightpanel">TV's</a>
+    </section>
+  </br>
+    <section>
+        <a href="laptop.html" target="rightpanel">Laptops</a>
+    </section>
+  </br>
+    <section>
+        <a href="mensclothes.html" target="rightpanel">Men's clothes</a>
+    </section>
+    </section>
+
+   
+
+   <section id="frame">
+       <iframe  name="rightpanel"></iframe>
+
+   </section>
+    </section>
+</body>
+</html>
